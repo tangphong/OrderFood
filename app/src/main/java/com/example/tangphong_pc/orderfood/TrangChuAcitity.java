@@ -76,7 +76,6 @@ public class TrangChuAcitity extends AppCompatActivity implements NavigationView
         hienThiBanAnFragment = new HienThiBanAnFragment();
         hienThiThucDonFragment = new HienThiThucDonFragment();
         changeFragment(hienThiBanAnFragment);
-
     }
 
     @Override
