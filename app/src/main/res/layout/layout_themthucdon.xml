@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundheader"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvthemthucdon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/size10"
+        android:text="@string/ThemThucDon"
+        android:textSize="@dimen/size30"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtTenMon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvthemthucdon"
+        android:layout_margin="@dimen/size18"
+        android:background="@color/white"
+        android:hint="@string/tenmonan"
+        android:padding="@dimen/size10"
+        android:textSize="@dimen/size18" />
+
+    <EditText
+        android:numeric="integer"
+        android:id="@+id/edtgiatien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtTenMon"
+        android:layout_margin="@dimen/size18"
+        android:background="@color/white"
+        android:hint="@string/giatien"
+        android:padding="@dimen/size10"
+        android:textSize="@dimen/size18" />
+
+    <LinearLayout
+        android:id="@+id/lntren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtgiatien"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/lnsp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/spiner"
+                android:layout_width="@dimen/size150"
+                android:layout_height="@dimen/size30"
+                android:layout_below="@+id/edtgiatien"
+                android:layout_margin="@dimen/size18"
+                android:background="@color/bgdn"></Spinner>
+
+            <Button
+                android:id="@+id/ImbtnThemLoaiThucDon"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size30"
+                android:layout_margin="@dimen/size18"
+                android:background="@drawable/addloaimonan"
+                android:padding="@dimen/size18" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:layout_below="@+id/lntren"
+        android:id="@+id/imgHinhThucDon"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size150"
+        android:layout_marginTop="@dimen/size18"
+        android:src="@drawable/logodangnhap"></ImageView>
+    <LinearLayout
+        android:id="@+id/lnbt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgHinhThucDon"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btndongy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10"
+            android:layout_weight="1"
+            android:background="@color/blue2"
+            android:text="@string/dongy" />
+
+        <Button
+            android:id="@+id/btnthoat"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/size10"
+            android:layout_weight="1"
+            android:background="@color/blue25"
+            android:text="@string/thoat" />
+    </LinearLayout>
+
+
+</RelativeLayout>

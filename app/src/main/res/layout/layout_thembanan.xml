@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <EditText
+        android:id="@+id/edtThemBanAn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/size10"
+        android:hint="@string/tenbanan"
+        android:padding="@dimen/size10"
+        android:textColor="@color/grey05"
+        android:textColorHint="@color/grey05" />
+
+    <Button
+        android:id="@+id/btnThembanAn"
+        android:layout_width="@dimen/size150"
+        android:layout_height="@dimen/size70"
+        android:layout_gravity="center"
+        android:background="@drawable/_background"
+        android:text="Đồng Ý" />
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">OrderFood</string>
+    <string name="tendangnhap">Tên Đăng Nhập</string>
+    <string name="matkhau">Mật Khẩu</string>
+    <string name="ngaysinh">Ngày Sinh</string>
+    <string name="cmnd">Chứng Minh Nhân Dân</string>
+    <string name="dongy">Đồng Ý</string>
+    <string name="thoat">Thoát</string>
+    <string name="tv">Đăng Ký</string>
+    <string name="nhaptendangnhap">Vui Lòng Nhập Tên Đăng Nhập</string>
+    <string name="dangnhap">Đăng Nhập</string>
+    <string name="ok">Đăng Nhập</string>
+    <string name="dangky">Đăng Ký</string>
+    <string name="trangchu">Trang Chủ</string>
+    <string name="thucdon">Thực Đơn</string>
+    <string name="nhanvien">Nhân Viên</string>
+    <string name="thongke">Thống Kê</string>
+    <string name="caidat">Cài Đặt</string>
+    <string name="dong">Đóng</string>
+    <string name="mo">Mở</string>
+    <string name="themBanAn">Thêm bàn ăn</string>
+    <string name="tenbanan">Thêm bàn ăn</string>
+    <string name="themthanhcong">Thêm Thành Công</string>
+    <string name="themthatbai">Thêm Thất Bại</string>
+    <string name="ThemThucDon">Thêm Thực Đơn</string>
+    <string name="tenmonan">Tên Món ăn</string>
+    <string name="giatien">Giá Tiền</string>
+    <string name="tenloaimonan">Tên Loại Món Ăn</string>
+    <string name="themloaithucdon">Thêm Loại Thực Đơn</string>
+    <string name="nhapdulieudaydu">Vui Lòng Nhập Dữ Liệu</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colormautrang">#fcf8f9</color>
+    <color name="colorhind">#aba9aa</color>
+    <color name="dongy">#F44336</color>
+    <color name="thoat">#2196F3</color>
+    <color name="bg">#E57373</color>
+    <color name="bgdn">#8BC34A</color>
+    <color name="white">#FFF</color>
+    <color name="yellow1">#FFFF00</color>
+    <color name="yellow2">#FFD740</color>
+    <color name="grey05">#BDBDBD</color>
+    <color name="orange4">#FF9800</color>
+    <color name="orange5">#EF6C00</color>
+    <color name="blue2">#90A4AE</color>
+    <color name="blue25">#03A9F4</color>
+    <color name="toolbar">#faa875</color>
+    <color name="background_loaimonan">#66ee04f2</color>
+    <color name="background_monan">#5725fc16</color>
+</resources>
